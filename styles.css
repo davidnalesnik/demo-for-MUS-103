@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-row {
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+input,
+button {
+    font-size: large;
+    padding: 0.25em;
+}
